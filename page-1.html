@@ -1,0 +1,3090 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Google Drive</title>
+    <meta name="description" content="Google Drive Lessons for the Usa Schools">
+    
+           <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/style/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/style/style.css?1739645986" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link id="favicon" rel="icon" type="image/png" href="./img/google-drive.webp">
+
+    <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3884068607751462"></script>		   
+ 
+		
+</head>
+
+<body id="page-top">
+  
+<style type="text/css">
+.mry_1 {
+    margin-top: 15px !important;
+	    width: 300px;
+    height: 250px;
+	margin:0 auto;
+}
+.mry_2 {
+    margin-top: 15px !important;
+    width: 970px;
+    height: 250px;
+	margin:0 auto;
+}
+</style>
+
+<script>
+	function getScript(src) {
+    var headElm = document.head || document.getElementsByTagName('head')[0];
+    var script = document.createElement("script");
+    var once = true;
+    script.async = "async";
+    script.type = "text/javascript";
+    script.charset = "UTF-8";
+    script.src = src;
+    script.onload = script.onreadystatechange = function() {
+        if (once && (!script.readyState || /loaded|complete/.test(script.readyState))) {
+            once = false;         
+            script.onload = script.onreadystatechange = null;
+			console.log("okeey");
+        }
+    };
+	  headElm.appendChild(script);
+}
+
+ 
+	getScript("https://api.adinplay.com/libs/aiptag/pub/GDU/worm.ist/tag.min.js");
+ 
+	window.aiptag = window.aiptag || {cmd: []};
+	aiptag.cmd.display = aiptag.cmd.display || [];
+	aiptag.cmd.player = aiptag.cmd.player || [];
+
+	//CMP tool settings
+	aiptag.cmp = {
+		show: true,
+		position: "centered",  
+		button: true,
+		buttonText: "Privacy settings",
+		buttonPosition: "bottom-left" //bottom-left, bottom-right, top-left, top-right
+	}
+
+	aiptag.cmd.player.push(function() {
+		aiptag.adplayer = new aipPlayer({
+			AD_WIDTH: 960,
+			AD_HEIGHT: 540,
+			AD_DISPLAY: 'center', //default, fullscreen, center, fill
+			LOADING_TEXT: 'loading advertisement',
+			PREROLL_ELEM: function(){return document.getElementById('preroll')},
+			AIP_COMPLETE: function (evt){
+				 
+			},
+			AIP_REMOVE: function ()  {
+				// Here it's safe to remove the PREROLL_ELEM from the page if you want. But it's not recommend.
+			}
+		});
+	});
+	
+	 
+ 
+				function show_preroll() {
+ 					if (typeof aiptag.adplayer !== 'undefined') {
+				 	aiptag.cmd.player.push(function() { aiptag.adplayer.startPreRoll(); });
+					} else {
+				    	 
+
+					}
+				}
+	
+</script>
+
+
+<div id="preroll"></div>
+
+
+
+    <div class="container site-container">
+        <div class="site-content">
+            <nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
+                <div class="container">
+                    <button class="navbar-toggler navbar-toggler-left collapsed" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="false">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+                    <a class="navbar-brand js-scroll-trigger site-logo" href="https://classroom30x.github.io">classroom30x.github.io</a>
+                    <div class="navbar-collapse collapse justify-content-end" id="navb">
+                        <ul class="navbar-nav ml-auto text-uppercase">
+                            <li class="nav-item"><a id="settings-btn" style="cursor:pointer;" class="nav-link"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;Apperance Setting</a></li>
+                            <li class="nav-item"><a href="./" id="settings-btn" style="cursor:pointer;" class="nav-link"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Home</a></li>
+                            <li class="nav-item"><a href="https://class-50.pro" id="settings-btn" style="cursor:pointer;" class="nav-link"><i class="fa fa-link" aria-hidden="true"></i>&nbsp;&nbsp;Reserve Room</a></li>
+                            <li style="display:none;"  class="nav-item"><a class="nav-link" href="#" data-toggle="dropdown">Lessons<i class="dropdown-icon fa fa-caret-down"></i></a>
+                                <ul role="menu" class="dropdown-menu">
+                                    <li class="nav-item-child"><a class="nav-link-child" href="#">NEW</a></li>
+                                    <li class="nav-item-child"><a class="nav-link-child" href="#">POPULAR</a></li>
+                                    
+                                </ul>
+                            </li>
+                         </ul>
+                        <form class="form-inline my-2 my-lg-0 search-bar" action="/index.php">
+                            <div class="input-group">
+                                <input type="hidden" name="viewpage" value="search" />
+                                <input type="text" class="form-control rounded-left search" id="search-input" placeholder="Search Lesson :)" name="slug" minlength="2" required />
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn btn-search" type="button">
+					<i class="fa fa-search"></i>
+				</button>
+                                </div>
+                            </div>
+							
+							
+	    <div style="display:none;" class="search-results" id="search-results"></div>
+
+
+		</div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+     
+			
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+			
+ <script>
+        $(document).ready(function() {
+             let games = [];
+
+             $.getJSON('https://classroom30x.github.io/lessons.json', function(data) {
+                games = data;
+            });
+
+             $('#search-input').on('input', function() {
+                const input = $(this).val().toLowerCase();
+                const resultsContainer = $('#search-results');
+                resultsContainer.empty(); // Önceki sonuçları temizle
+
+                if (input.length >= 2) {
+					$(".search-results").show();
+                    const filteredGames = games.filter(game => game.url.toLowerCase().includes(input)).slice(0, 5);
+                    
+                    filteredGames.forEach(game => {
+                        const gameElement = $('<div class="sikik_selo_liste"></div>');
+                        const gameImage = $('<img width="40">').attr('src', `https://classroom30x.github.io/lessons-img/${game.lesson.toLowerCase()}.webp`).attr('alt', game.url);
+                        const gameLink = $('<a></a>').attr('href','https://classroom30x.github.io/lesson-detail/'+ game.lesson+'.html').text(game.url);
+                        gameElement.append(gameImage);
+                        gameElement.append(gameLink);
+                        resultsContainer.append(gameElement);
+                    });
+                } else {
+					$(".search-results").hide();
+				}
+            });
+        });
+    </script>   		   		<br>
+		<br>
+            <div class="container">
+                <div class="game-container">
+                  <div class="rk">
+				  <div class="mry_2" id='worm-ist_970x250'>
+		<script type='text/javascript'>
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('worm-ist_970x250'); });
+		</script>
+	</div>
+				  </div>
+
+       <div class="grid-layout grid-wrapper">
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-1.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-1.webp" class="small-thumb" alt="lesson-1">
+                    </div>
+                    <div class="list-title">
+                        Lesson 1                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-6.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-6.webp" class="small-thumb" alt="lesson-6">
+                    </div>
+                    <div class="list-title">
+                        Lesson 6                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-10.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-10.webp" class="small-thumb" alt="lesson-10">
+                    </div>
+                    <div class="list-title">
+                        Lesson 10                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-100.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-100.webp" class="small-thumb" alt="lesson-100">
+                    </div>
+                    <div class="list-title">
+                        Lesson 100                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-101.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-101.webp" class="small-thumb" alt="lesson-101">
+                    </div>
+                    <div class="list-title">
+                        Lesson 101                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-102.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-102.webp" class="small-thumb" alt="lesson-102">
+                    </div>
+                    <div class="list-title">
+                        Lesson 102                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid span-2">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-103.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-103.webp" class="small-thumb" alt="lesson-103">
+                    </div>
+                    <div class="list-title">
+                        Lesson 103                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid span-2">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-104.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-104.webp" class="small-thumb" alt="lesson-104">
+                    </div>
+                    <div class="list-title">
+                        Lesson 104                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-105.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-105.webp" class="small-thumb" alt="lesson-105">
+                    </div>
+                    <div class="list-title">
+                        Lesson 105                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-106.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-106.webp" class="small-thumb" alt="lesson-106">
+                    </div>
+                    <div class="list-title">
+                        Lesson 106                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-107.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-107.webp" class="small-thumb" alt="lesson-107">
+                    </div>
+                    <div class="list-title">
+                        Lesson 107                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-108.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-108.webp" class="small-thumb" alt="lesson-108">
+                    </div>
+                    <div class="list-title">
+                        Lesson 108                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-109.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-109.webp" class="small-thumb" alt="lesson-109">
+                    </div>
+                    <div class="list-title">
+                        Lesson 109                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-11.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-11.webp" class="small-thumb" alt="lesson-11">
+                    </div>
+                    <div class="list-title">
+                        Lesson 11                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-110.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-110.webp" class="small-thumb" alt="lesson-110">
+                    </div>
+                    <div class="list-title">
+                        Lesson 110                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-111.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-111.webp" class="small-thumb" alt="lesson-111">
+                    </div>
+                    <div class="list-title">
+                        Lesson 111                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-112.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-112.webp" class="small-thumb" alt="lesson-112">
+                    </div>
+                    <div class="list-title">
+                        Lesson 112                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-113.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-113.webp" class="small-thumb" alt="lesson-113">
+                    </div>
+                    <div class="list-title">
+                        Lesson 113                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-114.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-114.webp" class="small-thumb" alt="lesson-114">
+                    </div>
+                    <div class="list-title">
+                        Lesson 114                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-115.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-115.webp" class="small-thumb" alt="lesson-115">
+                    </div>
+                    <div class="list-title">
+                        Lesson 115                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-116.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-116.webp" class="small-thumb" alt="lesson-116">
+                    </div>
+                    <div class="list-title">
+                        Lesson 116                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid span-2">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-117.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-117.webp" class="small-thumb" alt="lesson-117">
+                    </div>
+                    <div class="list-title">
+                        Lesson 117                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid span-2">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-118.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-118.webp" class="small-thumb" alt="lesson-118">
+                    </div>
+                    <div class="list-title">
+                        Lesson 118                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-119.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-119.webp" class="small-thumb" alt="lesson-119">
+                    </div>
+                    <div class="list-title">
+                        Lesson 119                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-12.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-12.webp" class="small-thumb" alt="lesson-12">
+                    </div>
+                    <div class="list-title">
+                        Lesson 12                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-120.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-120.webp" class="small-thumb" alt="lesson-120">
+                    </div>
+                    <div class="list-title">
+                        Lesson 120                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-121.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-121.webp" class="small-thumb" alt="lesson-121">
+                    </div>
+                    <div class="list-title">
+                        Lesson 121                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid span-2">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-122.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-122.webp" class="small-thumb" alt="lesson-122">
+                    </div>
+                    <div class="list-title">
+                        Lesson 122                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-123.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-123.webp" class="small-thumb" alt="lesson-123">
+                    </div>
+                    <div class="list-title">
+                        Lesson 123                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-124.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-124.webp" class="small-thumb" alt="lesson-124">
+                    </div>
+                    <div class="list-title">
+                        Lesson 124                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-125.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-125.webp" class="small-thumb" alt="lesson-125">
+                    </div>
+                    <div class="list-title">
+                        Lesson 125                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-126.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-126.webp" class="small-thumb" alt="lesson-126">
+                    </div>
+                    <div class="list-title">
+                        Lesson 126                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid span-2">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-127.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-127.webp" class="small-thumb" alt="lesson-127">
+                    </div>
+                    <div class="list-title">
+                        Lesson 127                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-128.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-128.webp" class="small-thumb" alt="lesson-128">
+                    </div>
+                    <div class="list-title">
+                        Lesson 128                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid span-2">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-129.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-129.webp" class="small-thumb" alt="lesson-129">
+                    </div>
+                    <div class="list-title">
+                        Lesson 129                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-13.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-13.webp" class="small-thumb" alt="lesson-13">
+                    </div>
+                    <div class="list-title">
+                        Lesson 13                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-130.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-130.webp" class="small-thumb" alt="lesson-130">
+                    </div>
+                    <div class="list-title">
+                        Lesson 130                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid span-2">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-131.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-131.webp" class="small-thumb" alt="lesson-131">
+                    </div>
+                    <div class="list-title">
+                        Lesson 131                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-132.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-132.webp" class="small-thumb" alt="lesson-132">
+                    </div>
+                    <div class="list-title">
+                        Lesson 132                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-133.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-133.webp" class="small-thumb" alt="lesson-133">
+                    </div>
+                    <div class="list-title">
+                        Lesson 133                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-134.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-134.webp" class="small-thumb" alt="lesson-134">
+                    </div>
+                    <div class="list-title">
+                        Lesson 134                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-135.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-135.webp" class="small-thumb" alt="lesson-135">
+                    </div>
+                    <div class="list-title">
+                        Lesson 135                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-136.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-136.webp" class="small-thumb" alt="lesson-136">
+                    </div>
+                    <div class="list-title">
+                        Lesson 136                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-137.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-137.webp" class="small-thumb" alt="lesson-137">
+                    </div>
+                    <div class="list-title">
+                        Lesson 137                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-138.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-138.webp" class="small-thumb" alt="lesson-138">
+                    </div>
+                    <div class="list-title">
+                        Lesson 138                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-139.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-139.webp" class="small-thumb" alt="lesson-139">
+                    </div>
+                    <div class="list-title">
+                        Lesson 139                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-14.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-14.webp" class="small-thumb" alt="lesson-14">
+                    </div>
+                    <div class="list-title">
+                        Lesson 14                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-140.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-140.webp" class="small-thumb" alt="lesson-140">
+                    </div>
+                    <div class="list-title">
+                        Lesson 140                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-141.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-141.webp" class="small-thumb" alt="lesson-141">
+                    </div>
+                    <div class="list-title">
+                        Lesson 141                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-142.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-142.webp" class="small-thumb" alt="lesson-142">
+                    </div>
+                    <div class="list-title">
+                        Lesson 142                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-143.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-143.webp" class="small-thumb" alt="lesson-143">
+                    </div>
+                    <div class="list-title">
+                        Lesson 143                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-144.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-144.webp" class="small-thumb" alt="lesson-144">
+                    </div>
+                    <div class="list-title">
+                        Lesson 144                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-145.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-145.webp" class="small-thumb" alt="lesson-145">
+                    </div>
+                    <div class="list-title">
+                        Lesson 145                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-146.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-146.webp" class="small-thumb" alt="lesson-146">
+                    </div>
+                    <div class="list-title">
+                        Lesson 146                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-147.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-147.webp" class="small-thumb" alt="lesson-147">
+                    </div>
+                    <div class="list-title">
+                        Lesson 147                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-148.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-148.webp" class="small-thumb" alt="lesson-148">
+                    </div>
+                    <div class="list-title">
+                        Lesson 148                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-149.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-149.webp" class="small-thumb" alt="lesson-149">
+                    </div>
+                    <div class="list-title">
+                        Lesson 149                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-15.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-15.webp" class="small-thumb" alt="lesson-15">
+                    </div>
+                    <div class="list-title">
+                        Lesson 15                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-150.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-150.webp" class="small-thumb" alt="lesson-150">
+                    </div>
+                    <div class="list-title">
+                        Lesson 150                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-151.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-151.webp" class="small-thumb" alt="lesson-151">
+                    </div>
+                    <div class="list-title">
+                        Lesson 151                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-152.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-152.webp" class="small-thumb" alt="lesson-152">
+                    </div>
+                    <div class="list-title">
+                        Lesson 152                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-153.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-153.webp" class="small-thumb" alt="lesson-153">
+                    </div>
+                    <div class="list-title">
+                        Lesson 153                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-154.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-154.webp" class="small-thumb" alt="lesson-154">
+                    </div>
+                    <div class="list-title">
+                        Lesson 154                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-155.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-155.webp" class="small-thumb" alt="lesson-155">
+                    </div>
+                    <div class="list-title">
+                        Lesson 155                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-156.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-156.webp" class="small-thumb" alt="lesson-156">
+                    </div>
+                    <div class="list-title">
+                        Lesson 156                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-157.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-157.webp" class="small-thumb" alt="lesson-157">
+                    </div>
+                    <div class="list-title">
+                        Lesson 157                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-158.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-158.webp" class="small-thumb" alt="lesson-158">
+                    </div>
+                    <div class="list-title">
+                        Lesson 158                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-159.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-159.webp" class="small-thumb" alt="lesson-159">
+                    </div>
+                    <div class="list-title">
+                        Lesson 159                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-16.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-16.webp" class="small-thumb" alt="lesson-16">
+                    </div>
+                    <div class="list-title">
+                        Lesson 16                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-160.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-160.webp" class="small-thumb" alt="lesson-160">
+                    </div>
+                    <div class="list-title">
+                        Lesson 160                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-161.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-161.webp" class="small-thumb" alt="lesson-161">
+                    </div>
+                    <div class="list-title">
+                        Lesson 161                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-162.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-162.webp" class="small-thumb" alt="lesson-162">
+                    </div>
+                    <div class="list-title">
+                        Lesson 162                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid span-2">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-163.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-163.webp" class="small-thumb" alt="lesson-163">
+                    </div>
+                    <div class="list-title">
+                        Lesson 163                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-164.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-164.webp" class="small-thumb" alt="lesson-164">
+                    </div>
+                    <div class="list-title">
+                        Lesson 164                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-165.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-165.webp" class="small-thumb" alt="lesson-165">
+                    </div>
+                    <div class="list-title">
+                        Lesson 165                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-166.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-166.webp" class="small-thumb" alt="lesson-166">
+                    </div>
+                    <div class="list-title">
+                        Lesson 166                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-167.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-167.webp" class="small-thumb" alt="lesson-167">
+                    </div>
+                    <div class="list-title">
+                        Lesson 167                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-168.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-168.webp" class="small-thumb" alt="lesson-168">
+                    </div>
+                    <div class="list-title">
+                        Lesson 168                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid span-2">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-169.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-169.webp" class="small-thumb" alt="lesson-169">
+                    </div>
+                    <div class="list-title">
+                        Lesson 169                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-17.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-17.webp" class="small-thumb" alt="lesson-17">
+                    </div>
+                    <div class="list-title">
+                        Lesson 17                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-170.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-170.webp" class="small-thumb" alt="lesson-170">
+                    </div>
+                    <div class="list-title">
+                        Lesson 170                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-171.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-171.webp" class="small-thumb" alt="lesson-171">
+                    </div>
+                    <div class="list-title">
+                        Lesson 171                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-172.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-172.webp" class="small-thumb" alt="lesson-172">
+                    </div>
+                    <div class="list-title">
+                        Lesson 172                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-173.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-173.webp" class="small-thumb" alt="lesson-173">
+                    </div>
+                    <div class="list-title">
+                        Lesson 173                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-174.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-174.webp" class="small-thumb" alt="lesson-174">
+                    </div>
+                    <div class="list-title">
+                        Lesson 174                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-175.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-175.webp" class="small-thumb" alt="lesson-175">
+                    </div>
+                    <div class="list-title">
+                        Lesson 175                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-176.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-176.webp" class="small-thumb" alt="lesson-176">
+                    </div>
+                    <div class="list-title">
+                        Lesson 176                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-177.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-177.webp" class="small-thumb" alt="lesson-177">
+                    </div>
+                    <div class="list-title">
+                        Lesson 177                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-178.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-178.webp" class="small-thumb" alt="lesson-178">
+                    </div>
+                    <div class="list-title">
+                        Lesson 178                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-179.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-179.webp" class="small-thumb" alt="lesson-179">
+                    </div>
+                    <div class="list-title">
+                        Lesson 179                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-18.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-18.webp" class="small-thumb" alt="lesson-18">
+                    </div>
+                    <div class="list-title">
+                        Lesson 18                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-180.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-180.webp" class="small-thumb" alt="lesson-180">
+                    </div>
+                    <div class="list-title">
+                        Lesson 180                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-181.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-181.webp" class="small-thumb" alt="lesson-181">
+                    </div>
+                    <div class="list-title">
+                        Lesson 181                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-182.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-182.webp" class="small-thumb" alt="lesson-182">
+                    </div>
+                    <div class="list-title">
+                        Lesson 182                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-183.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-183.webp" class="small-thumb" alt="lesson-183">
+                    </div>
+                    <div class="list-title">
+                        Lesson 183                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-184.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-184.webp" class="small-thumb" alt="lesson-184">
+                    </div>
+                    <div class="list-title">
+                        Lesson 184                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-185.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-185.webp" class="small-thumb" alt="lesson-185">
+                    </div>
+                    <div class="list-title">
+                        Lesson 185                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-186.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-186.webp" class="small-thumb" alt="lesson-186">
+                    </div>
+                    <div class="list-title">
+                        Lesson 186                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid span-2">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-187.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-187.webp" class="small-thumb" alt="lesson-187">
+                    </div>
+                    <div class="list-title">
+                        Lesson 187                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="grid-item item-grid ">
+            <a href="https://classroom30x.github.io/lesson-detail/lesson-188.html">
+                <div class="list-lesson">
+                    <div class="list-thumbnail">
+                        <img src="lessons-img/lesson-188.webp" class="small-thumb" alt="lesson-188">
+                    </div>
+                    <div class="list-title">
+                        Lesson 188                                       
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="div_sayanos">
+        <ul class="_f12_sayfala">
+                                                            <li class="currentpage"><a href="page-1.html">1</a></li>
+            <li class="page"><a href="page-2.html">2</a></li>            <li class="page"><a href="page-3.html">3</a></li>            <li class="dots">...</li><li class="end"><a href="page-6.html">6</a></li>            <li class="next"><a href="page-2.html">></a></li>        </ul>
+    </div>
+
+					
+				 
+				<br>	
+			<div class="rk">
+			<div class="mry_2" id='worm-ist_300x250'>
+		<script type='text/javascript'>
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('worm-ist_300x250'); });
+		</script>
+	</div>
+			</div>		
+					
+					
+                    <h3 class="item-title"><i class="fa fa-gamepad" aria-hidden="true"></i>YOU MAY LIKE</h3>
+               <div class="grid-layout grid-wrapper">		
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-454.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-454.webp" class="small-thumb" alt="lesson-454">
+				</div>
+				<div class="list-title">
+					lesson-454				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-387.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-387.webp" class="small-thumb" alt="lesson-387">
+				</div>
+				<div class="list-title">
+					lesson-387				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-448.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-448.webp" class="small-thumb" alt="lesson-448">
+				</div>
+				<div class="list-title">
+					lesson-448				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-52.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-52.webp" class="small-thumb" alt="lesson-52">
+				</div>
+				<div class="list-title">
+					lesson-52				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-83.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-83.webp" class="small-thumb" alt="lesson-83">
+				</div>
+				<div class="list-title">
+					lesson-83				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-310.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-310.webp" class="small-thumb" alt="lesson-310">
+				</div>
+				<div class="list-title">
+					lesson-310				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-116.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-116.webp" class="small-thumb" alt="lesson-116">
+				</div>
+				<div class="list-title">
+					lesson-116				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-132.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-132.webp" class="small-thumb" alt="lesson-132">
+				</div>
+				<div class="list-title">
+					lesson-132				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-349.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-349.webp" class="small-thumb" alt="lesson-349">
+				</div>
+				<div class="list-title">
+					lesson-349				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-458.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-458.webp" class="small-thumb" alt="lesson-458">
+				</div>
+				<div class="list-title">
+					lesson-458				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-283.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-283.webp" class="small-thumb" alt="lesson-283">
+				</div>
+				<div class="list-title">
+					lesson-283				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-227.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-227.webp" class="small-thumb" alt="lesson-227">
+				</div>
+				<div class="list-title">
+					lesson-227				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-158.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-158.webp" class="small-thumb" alt="lesson-158">
+				</div>
+				<div class="list-title">
+					lesson-158				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-58.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-58.webp" class="small-thumb" alt="lesson-58">
+				</div>
+				<div class="list-title">
+					lesson-58				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-312.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-312.webp" class="small-thumb" alt="lesson-312">
+				</div>
+				<div class="list-title">
+					lesson-312				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-7.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-7.webp" class="small-thumb" alt="lesson-7">
+				</div>
+				<div class="list-title">
+					lesson-7				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-544.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-544.webp" class="small-thumb" alt="lesson-544">
+				</div>
+				<div class="list-title">
+					lesson-544				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-112.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-112.webp" class="small-thumb" alt="lesson-112">
+				</div>
+				<div class="list-title">
+					lesson-112				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-461.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-461.webp" class="small-thumb" alt="lesson-461">
+				</div>
+				<div class="list-title">
+					lesson-461				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-21.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-21.webp" class="small-thumb" alt="lesson-21">
+				</div>
+				<div class="list-title">
+					lesson-21				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-190.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-190.webp" class="small-thumb" alt="lesson-190">
+				</div>
+				<div class="list-title">
+					lesson-190				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-280.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-280.webp" class="small-thumb" alt="lesson-280">
+				</div>
+				<div class="list-title">
+					lesson-280				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-529.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-529.webp" class="small-thumb" alt="lesson-529">
+				</div>
+				<div class="list-title">
+					lesson-529				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-41.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-41.webp" class="small-thumb" alt="lesson-41">
+				</div>
+				<div class="list-title">
+					lesson-41				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-275.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-275.webp" class="small-thumb" alt="lesson-275">
+				</div>
+				<div class="list-title">
+					lesson-275				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-142.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-142.webp" class="small-thumb" alt="lesson-142">
+				</div>
+				<div class="list-title">
+					lesson-142				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-32.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-32.webp" class="small-thumb" alt="lesson-32">
+				</div>
+				<div class="list-title">
+					lesson-32				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-163.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-163.webp" class="small-thumb" alt="lesson-163">
+				</div>
+				<div class="list-title">
+					lesson-163				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-377.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-377.webp" class="small-thumb" alt="lesson-377">
+				</div>
+				<div class="list-title">
+					lesson-377				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-358.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-358.webp" class="small-thumb" alt="lesson-358">
+				</div>
+				<div class="list-title">
+					lesson-358				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-507.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-507.webp" class="small-thumb" alt="lesson-507">
+				</div>
+				<div class="list-title">
+					lesson-507				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-422.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-422.webp" class="small-thumb" alt="lesson-422">
+				</div>
+				<div class="list-title">
+					lesson-422				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-252.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-252.webp" class="small-thumb" alt="lesson-252">
+				</div>
+				<div class="list-title">
+					lesson-252				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-326.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-326.webp" class="small-thumb" alt="lesson-326">
+				</div>
+				<div class="list-title">
+					lesson-326				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-335.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-335.webp" class="small-thumb" alt="lesson-335">
+				</div>
+				<div class="list-title">
+					lesson-335				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-336.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-336.webp" class="small-thumb" alt="lesson-336">
+				</div>
+				<div class="list-title">
+					lesson-336				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-213.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-213.webp" class="small-thumb" alt="lesson-213">
+				</div>
+				<div class="list-title">
+					lesson-213				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-237.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-237.webp" class="small-thumb" alt="lesson-237">
+				</div>
+				<div class="list-title">
+					lesson-237				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-392.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-392.webp" class="small-thumb" alt="lesson-392">
+				</div>
+				<div class="list-title">
+					lesson-392				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-449.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-449.webp" class="small-thumb" alt="lesson-449">
+				</div>
+				<div class="list-title">
+					lesson-449				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-441.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-441.webp" class="small-thumb" alt="lesson-441">
+				</div>
+				<div class="list-title">
+					lesson-441				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-249.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-249.webp" class="small-thumb" alt="lesson-249">
+				</div>
+				<div class="list-title">
+					lesson-249				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-384.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-384.webp" class="small-thumb" alt="lesson-384">
+				</div>
+				<div class="list-title">
+					lesson-384				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-509.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-509.webp" class="small-thumb" alt="lesson-509">
+				</div>
+				<div class="list-title">
+					lesson-509				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-462.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-462.webp" class="small-thumb" alt="lesson-462">
+				</div>
+				<div class="list-title">
+					lesson-462				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-85.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-85.webp" class="small-thumb" alt="lesson-85">
+				</div>
+				<div class="list-title">
+					lesson-85				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-288.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-288.webp" class="small-thumb" alt="lesson-288">
+				</div>
+				<div class="list-title">
+					lesson-288				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-28.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-28.webp" class="small-thumb" alt="lesson-28">
+				</div>
+				<div class="list-title">
+					lesson-28				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-319.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-319.webp" class="small-thumb" alt="lesson-319">
+				</div>
+				<div class="list-title">
+					lesson-319				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-106.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-106.webp" class="small-thumb" alt="lesson-106">
+				</div>
+				<div class="list-title">
+					lesson-106				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-378.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-378.webp" class="small-thumb" alt="lesson-378">
+				</div>
+				<div class="list-title">
+					lesson-378				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-61.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-61.webp" class="small-thumb" alt="lesson-61">
+				</div>
+				<div class="list-title">
+					lesson-61				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-91.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-91.webp" class="small-thumb" alt="lesson-91">
+				</div>
+				<div class="list-title">
+					lesson-91				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-144.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-144.webp" class="small-thumb" alt="lesson-144">
+				</div>
+				<div class="list-title">
+					lesson-144				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-201.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-201.webp" class="small-thumb" alt="lesson-201">
+				</div>
+				<div class="list-title">
+					lesson-201				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-17.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-17.webp" class="small-thumb" alt="lesson-17">
+				</div>
+				<div class="list-title">
+					lesson-17				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-322.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-322.webp" class="small-thumb" alt="lesson-322">
+				</div>
+				<div class="list-title">
+					lesson-322				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-445.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-445.webp" class="small-thumb" alt="lesson-445">
+				</div>
+				<div class="list-title">
+					lesson-445				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-407.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-407.webp" class="small-thumb" alt="lesson-407">
+				</div>
+				<div class="list-title">
+					lesson-407				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-191.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-191.webp" class="small-thumb" alt="lesson-191">
+				</div>
+				<div class="list-title">
+					lesson-191				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-53.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-53.webp" class="small-thumb" alt="lesson-53">
+				</div>
+				<div class="list-title">
+					lesson-53				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-482.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-482.webp" class="small-thumb" alt="lesson-482">
+				</div>
+				<div class="list-title">
+					lesson-482				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-226.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-226.webp" class="small-thumb" alt="lesson-226">
+				</div>
+				<div class="list-title">
+					lesson-226				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-420.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-420.webp" class="small-thumb" alt="lesson-420">
+				</div>
+				<div class="list-title">
+					lesson-420				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-291.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-291.webp" class="small-thumb" alt="lesson-291">
+				</div>
+				<div class="list-title">
+					lesson-291				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-210.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-210.webp" class="small-thumb" alt="lesson-210">
+				</div>
+				<div class="list-title">
+					lesson-210				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-287.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-287.webp" class="small-thumb" alt="lesson-287">
+				</div>
+				<div class="list-title">
+					lesson-287				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-383.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-383.webp" class="small-thumb" alt="lesson-383">
+				</div>
+				<div class="list-title">
+					lesson-383				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-526.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-526.webp" class="small-thumb" alt="lesson-526">
+				</div>
+				<div class="list-title">
+					lesson-526				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-101.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-101.webp" class="small-thumb" alt="lesson-101">
+				</div>
+				<div class="list-title">
+					lesson-101				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-359.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-359.webp" class="small-thumb" alt="lesson-359">
+				</div>
+				<div class="list-title">
+					lesson-359				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-534.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-534.webp" class="small-thumb" alt="lesson-534">
+				</div>
+				<div class="list-title">
+					lesson-534				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-504.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-504.webp" class="small-thumb" alt="lesson-504">
+				</div>
+				<div class="list-title">
+					lesson-504				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-480.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-480.webp" class="small-thumb" alt="lesson-480">
+				</div>
+				<div class="list-title">
+					lesson-480				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-475.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-475.webp" class="small-thumb" alt="lesson-475">
+				</div>
+				<div class="list-title">
+					lesson-475				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-512.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-512.webp" class="small-thumb" alt="lesson-512">
+				</div>
+				<div class="list-title">
+					lesson-512				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-135.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-135.webp" class="small-thumb" alt="lesson-135">
+				</div>
+				<div class="list-title">
+					lesson-135				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-192.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-192.webp" class="small-thumb" alt="lesson-192">
+				</div>
+				<div class="list-title">
+					lesson-192				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-339.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-339.webp" class="small-thumb" alt="lesson-339">
+				</div>
+				<div class="list-title">
+					lesson-339				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-338.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-338.webp" class="small-thumb" alt="lesson-338">
+				</div>
+				<div class="list-title">
+					lesson-338				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-464.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-464.webp" class="small-thumb" alt="lesson-464">
+				</div>
+				<div class="list-title">
+					lesson-464				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-178.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-178.webp" class="small-thumb" alt="lesson-178">
+				</div>
+				<div class="list-title">
+					lesson-178				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-525.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-525.webp" class="small-thumb" alt="lesson-525">
+				</div>
+				<div class="list-title">
+					lesson-525				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-533.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-533.webp" class="small-thumb" alt="lesson-533">
+				</div>
+				<div class="list-title">
+					lesson-533				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-140.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-140.webp" class="small-thumb" alt="lesson-140">
+				</div>
+				<div class="list-title">
+					lesson-140				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-55.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-55.webp" class="small-thumb" alt="lesson-55">
+				</div>
+				<div class="list-title">
+					lesson-55				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-274.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-274.webp" class="small-thumb" alt="lesson-274">
+				</div>
+				<div class="list-title">
+					lesson-274				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-381.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-381.webp" class="small-thumb" alt="lesson-381">
+				</div>
+				<div class="list-title">
+					lesson-381				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-45.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-45.webp" class="small-thumb" alt="lesson-45">
+				</div>
+				<div class="list-title">
+					lesson-45				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-181.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-181.webp" class="small-thumb" alt="lesson-181">
+				</div>
+				<div class="list-title">
+					lesson-181				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-229.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-229.webp" class="small-thumb" alt="lesson-229">
+				</div>
+				<div class="list-title">
+					lesson-229				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-63.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-63.webp" class="small-thumb" alt="lesson-63">
+				</div>
+				<div class="list-title">
+					lesson-63				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-489.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-489.webp" class="small-thumb" alt="lesson-489">
+				</div>
+				<div class="list-title">
+					lesson-489				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-182.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-182.webp" class="small-thumb" alt="lesson-182">
+				</div>
+				<div class="list-title">
+					lesson-182				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-60.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-60.webp" class="small-thumb" alt="lesson-60">
+				</div>
+				<div class="list-title">
+					lesson-60				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-9.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-9.webp" class="small-thumb" alt="lesson-9">
+				</div>
+				<div class="list-title">
+					lesson-9				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-478.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-478.webp" class="small-thumb" alt="lesson-478">
+				</div>
+				<div class="list-title">
+					lesson-478				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-194.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-194.webp" class="small-thumb" alt="lesson-194">
+				</div>
+				<div class="list-title">
+					lesson-194				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-4.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-4.webp" class="small-thumb" alt="lesson-4">
+				</div>
+				<div class="list-title">
+					lesson-4				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+
+	<div class="grid-item item-grid">
+	 	
+		<a href="https://classroom30x.github.io/lesson-detail/lesson-86.html">	
+			<div class="list-lesson">
+				<div class="list-thumbnail">
+					<img src="https://classroom30x.github.io/lessons-img/lesson-86.webp" class="small-thumb" alt="lesson-86">
+				</div>
+				<div class="list-title">
+					lesson-86				</div>
+			</div>
+		</a>
+  
+	</div>			 
+
+ 
+
+</div>
+                    <div class="banner-ads">
+					300r				
+					</div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+	
+	
+<footer class="footer text-center">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 mb-5 mb-lg-0">
+ 
+ 
+<p data-pm-slice="1 1 []"><strong>School Lessons: The Foundation of Education</strong></p>
+<p>School lessons play a crucial role in shaping the knowledge, skills, and values of students. They provide structured learning experiences that help young minds develop academically, socially, and emotionally. From mathematics to literature, science to history, school lessons cover a wide range of subjects that prepare students for their future careers and personal growth.</p>
+<h2>Importance of School Lessons</h2>
+<p>School lessons are designed to give students a well-rounded education. They introduce fundamental concepts and help students develop critical thinking and problem-solving skills. Lessons also teach discipline, time management, and the ability to work both independently and collaboratively. These skills are essential for success in higher education and the workplace.</p>
+<h2>Core Subjects in School Lessons</h2>
+<ol start="1" data-spread="true">
+<li>
+<p><strong>Mathematics</strong> &ndash; Mathematics lessons help students understand numbers, shapes, and problem-solving techniques. Basic arithmetic, algebra, geometry, and calculus are essential components of a strong mathematical foundation. Math is used in everyday life, from budgeting to engineering and scientific research.</p>
+</li>
+<li>
+<p><strong>Science</strong> &ndash; Science lessons introduce students to the wonders of the natural world. Subjects like biology, chemistry, and physics help students understand the laws of nature, the human body, and technological advancements. Experiments and hands-on activities make science lessons engaging and interactive.</p>
+</li>
+<li>
+<p><strong>Literature and Language Arts</strong> &ndash; Reading, writing, and communication skills are essential for all aspects of life. Literature lessons expose students to different cultures, ideas, and perspectives through books, poems, and essays. Writing assignments help students develop clarity of expression and creativity.</p>
+</li>
+<li>
+<p><strong>History and Social Studies</strong> &ndash; Learning about history helps students understand how past events have shaped the world today. Social studies lessons cover geography, politics, and cultural studies, helping students develop a broader understanding of society and global issues.</p>
+</li>
+<li>
+<p><strong>Physical Education</strong> &ndash; Physical education (PE) promotes a healthy lifestyle by encouraging students to engage in sports and physical activities. These lessons teach teamwork, discipline, and the importance of maintaining physical fitness.</p>
+</li>
+<li>
+<p><strong>Art and Music</strong> &ndash; Creative subjects like art and music allow students to express themselves and explore their talents. Learning about famous artists, musicians, and different art techniques can inspire creativity and appreciation for the arts.</p>
+</li>
+<li>
+<p><strong>Technology and Computer Science</strong> &ndash; In the modern world, technological skills are more important than ever. Computer science lessons teach students coding, digital literacy, and online safety, preparing them for a technology-driven future.</p>
+</li>
+</ol>
+<h2>The Role of Teachers in School Lessons</h2>
+<p>Teachers play a vital role in delivering effective school lessons. They not only provide information but also inspire students to think critically and develop a love for learning. Good teachers use different teaching methods, such as group discussions, hands-on activities, and real-world examples, to make lessons more engaging and meaningful.</p>
+<h2>Challenges in School Lessons</h2>
+<p>While school lessons are essential, they also come with challenges. Some students may struggle with certain subjects, requiring extra support or different teaching methods. Additionally, large class sizes, lack of resources, and distractions can affect the quality of education. However, with dedication from teachers, students, and parents, these challenges can be overcome.</p>
+<h2>Conclusion</h2>
+<p>School lessons are the building blocks of education. They provide students with the knowledge, skills, and values needed to succeed in life. By embracing learning and staying curious, students can make the most of their school lessons and prepare for a bright future. Education is not just about passing exams; it is about gaining the tools necessary to navigate the world and make meaningful contributions to society.</p>
+</div>
+
+
+</div>
+</div>
+</footer>	
+    
+            <div class="copyright py-4 text-center">
+                <div class="container">
+                    <ul style="display: grid; list-style: none;    float: right;    grid-auto-flow: column;    grid-gap: 0px;    padding: 0px !important;    margin: 0;">
+		 <li class="nav-item "><a target="_blank" class="nav-link" href="https://policies.google.com/privacy?hl=en-US">Privacy Policy</a></li>
+				<li class="nav-item "><a target="_blank" class="nav-link" href="https://policies.google.com/terms?hl=en-US">Terms Of Service</a></li>
+				<li class="nav-item "><a target="_blank" class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdi3cR24vUZMm0AMvFd_KJBEJ0O7wFpNKNPBArZWG1JzleDcg/viewform?pli=1">Contact</a></li>
+</ul>
+					</div>
+            </div>
+			
+			
+				
+    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="/js/script.js"></script>
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <script>
+	document.getElementById('settings-btn').addEventListener('click', function() {
+	const sites = [{"site_name":"Google","icon":"https://classroom30x.github.io\/img\/google.webp?v3","title":"Google"},{"site_name":"Google Classroom","icon":"https://classroom30x.github.io\/img\/google-classroom.webp?v3","title":"Google Classroom"},{"site_name":"Google Drive","icon":"https://classroom30x.github.io\/img\/google-drive.webp?v3","title":"Google Drive"},{"site_name":"Dashboard","icon":"https://classroom30x.github.io\/img\/canvas.webp?v3","title":"Dashboard"},{"site_name":"Student and Parent Sign","icon":"https://classroom30x.github.io\/img\/powerschool.webp?v3","title":"Student and Parent Sign"}];
+let iconsHtml = '<div id="icons-container" style="display: flex; flex-wrap: wrap;">';
+sites.forEach(function(site) {
+    iconsHtml += "<div class='icon-container' data-icon='" + site.icon + "' data-title='" + site.title + "'>";
+    iconsHtml += "<img src='" + site.icon + "' alt='" + site.site_name + "' style='width: 40px; height: 40px;'>";
+    iconsHtml += "<div class='icon-title'>" + site.title + "</div>";  
+    iconsHtml += "</div>";
+});
+ 
+     Swal.fire({
+        title: 'Select Your Apperance',
+        html: iconsHtml,
+        showCloseButton: true,
+		showConfirmButton: false,
+        focusConfirm: false,
+        width: 800,
+        padding: '20px'
+    });
+
+     $('#icons-container .icon-container').on('click', function() {
+        var iconUrl = $(this).data('icon');
+        var pageTitle = $(this).data('title');
+        $('#favicon').attr('href', iconUrl);
+        $('title').text(pageTitle);
+        localStorage.setItem('selectedIcon', iconUrl);
+        localStorage.setItem('selectedTitle', pageTitle);
+         location.reload();
+    });
+});
+
+ $(document).ready(function() {
+    if(localStorage.getItem('selectedIcon') && localStorage.getItem('selectedTitle')) {
+        var selectedIcon = localStorage.getItem('selectedIcon');
+        var selectedTitle = localStorage.getItem('selectedTitle');
+        $('#favicon').attr('href', selectedIcon);
+        $('title').text(selectedTitle);
+    }
+});
+</script>
+
+	<style>
+	
+	.swal2-title{
+    font-weight: 800;
+	box-shadow:none;
+}
+#icons-container{margin: 0 auto;display: grid;width: 100%;grid-auto-flow: column;justify-content: center;grid-gap: 15px;margin-top: 20px;}
+.icon-container {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background: #f5f5f5;
+    padding: 15px 10px;
+    min-width: 150px;
+    border-radius: 6px;
+    box-shadow: inset -2px -6px 0px 0px rgb(0 0 0 / 3%);
+}
+.swal2-close{
+    box-shadow: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+	</style>
+	
+	
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-W058E7XKCZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W058E7XKCZ');
+</script>
+
+ 
+	
+	
+	
+</body>
+
+</html>
